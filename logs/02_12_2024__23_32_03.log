@@ -1,0 +1,55 @@
+[2024-02-12 23:32:07,931] 26 root -INFO -Data Ingestion Strating...
+[2024-02-12 23:32:11,228] 29 root -INFO -Reading a Data Frame
+[2024-02-12 23:32:12,685] 32 root -INFO -I have saved the raw dataset in artifact folder
+[2024-02-12 23:32:12,685] 33 root -INFO -Here I have performed dataset in artifact folder
+[2024-02-12 23:32:12,713] 35 root -INFO -train test split completed
+[2024-02-12 23:32:13,847] 38 root -INFO -data ingestion part completed 
+[2024-02-12 23:32:14,212] 93 root -INFO -read train and test data complete
+[2024-02-12 23:32:14,215] 94 root -INFO -Train Dataframe Head : 
+       id  carat      cut color clarity  depth  table     x     y     z  price
+0   63097   0.77    Ideal     I    VVS2   61.9   57.0  5.84  5.88  3.63   2870
+1    9140   0.40  Premium     E     SI1   61.1   60.0  4.73  4.75  2.90    704
+2  137150   0.46  Premium     E      I1   58.7   59.0  5.13  5.08  3.00    938
+3    2351   0.53    Ideal     G     VS1   61.1   57.0  5.24  5.28  3.20   1858
+4   20039   0.90  Premium     E     SI2   59.4   59.0  6.29  6.26  3.73   3871
+[2024-02-12 23:32:14,223] 95 root -INFO -Test Dataframe Head : 
+       id  carat        cut color clarity  depth  table     x     y     z  price
+0   91433   0.72      Ideal     F    VVS1   62.0   56.0  5.73  5.77  3.57   3510
+1    2816   0.30      Ideal     D     SI1   62.7   56.0  4.27  4.29  2.69    709
+2   39982   0.72       Good     E     SI1   63.9   57.0  5.63  5.70  3.62   2573
+3   18952   1.20  Very Good     F     SI2   62.7   59.0  6.70  6.74  4.22   5584
+4  135641   0.40  Very Good     E     SI1   62.5   58.0  4.70  4.73  2.95    737
+[2024-02-12 23:32:14,223] 39 root -INFO -Data Transformation initiated
+[2024-02-12 23:32:14,223] 50 root -INFO -Pipeline Initiated
+[2024-02-12 23:32:14,659] 113 root -INFO -Applying preprocessing object on training and testing datasets.
+[2024-02-12 23:32:14,667] 19 root -INFO -save the object
+[2024-02-12 23:32:14,667] 123 root -INFO -preprocessing pickle file saved
+[2024-02-12 23:32:14,670] 74 root -INFO -best model calling is start 
+[2024-02-12 23:32:14,670] 48 root -INFO -X_train,X_test,y_train,y_test is split 
+[2024-02-12 23:32:14,726] 52 root -INFO -Model is fit
+[2024-02-12 23:32:14,731] 54 root -INFO -Y_pred is [4473.16014393  407.25247679 2736.74880975 ... -888.63934423  530.48097484
+ 2933.09442916]
+[2024-02-12 23:32:14,734] 64 root -INFO -Model is fit .....
+[2024-02-12 23:32:16,639] 52 root -INFO -Model is fit
+[2024-02-12 23:32:16,641] 54 root -INFO -Y_pred is [4485.14333335  397.41289031 2753.09860507 ... -898.39640013  508.88326214
+ 2935.61587296]
+[2024-02-12 23:32:16,647] 64 root -INFO -Model is fit .....
+[2024-02-12 23:32:16,688] 52 root -INFO -Model is fit
+[2024-02-12 23:32:16,696] 54 root -INFO -Y_pred is [4473.30609327  406.88741449 2736.67252988 ... -888.55680344  530.14306475
+ 2933.48212551]
+[2024-02-12 23:32:16,704] 64 root -INFO -Model is fit .....
+[2024-02-12 23:32:16,939] 52 root -INFO -Model is fit
+[2024-02-12 23:32:16,977] 54 root -INFO -Y_pred is [4635.79072032 -229.02218493 3507.55867796 ... -100.63399769 -824.16014606
+ 4108.43699609]
+[2024-02-12 23:32:17,020] 64 root -INFO -Model is fit .....
+[2024-02-12 23:37:00,935] 52 root -INFO -Model is fit
+[2024-02-12 23:37:04,482] 54 root -INFO -Y_pred is [3759.28        601.915      2453.56       ...  522.67666667  409.07
+ 2716.11      ]
+[2024-02-12 23:37:04,492] 64 root -INFO -Model is fit .....
+[2024-02-12 23:37:06,144] 52 root -INFO -Model is fit
+[2024-02-12 23:37:06,173] 54 root -INFO -Y_pred is [3644.5034   623.68665 2565.6255  ...  529.3765   418.2067  2954.4585 ]
+[2024-02-12 23:37:06,173] 64 root -INFO -Model is fit .....
+[2024-02-12 23:37:06,181] 19 root -INFO -save the object
+[2024-02-12 23:37:06,181] 16 root -INFO -Evaluation started
+[2024-02-12 23:37:06,247] 33 root -INFO -Model register
+[2024-02-12 23:37:06,802] 50 root -INFO -local variable 'r2_score' referenced before assignment
