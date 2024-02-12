@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/PC/MlopProject/mlruns/0/2131665e239f496d9a7e42570f986d0a/artifacts
+end_time: 1707761613055
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2131665e239f496d9a7e42570f986d0a
+run_name: colorful-deer-214
+run_uuid: 2131665e239f496d9a7e42570f986d0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707761612724
+status: 4
+tags: []
+user_id: PC
